@@ -1,3 +1,44 @@
-*{
-    margin:0
+:root{
+    --background-primary-color: #ffffff;
+    --background-secondary-color: #F5F5F5;
+    --background-tertiary-color: #000000;
+
+    --butoon-primary-color:#8F0101;
+    --butoon-secondary-color:#B81515;
+
+    --text-primary-color:#222222;
+    --text-secondary-color: #ffffff;
 }
+
+
+/*css reset*/
+:body, img, h1, p, fieldset, legend, label, input, select, textarea, button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap') format(truetype);
+    font-weight: 700;
+    font-size: normal;
+    font-display: swap;
+}
+
+header{
+    align-content: center;
+    background-color: #000000;
+}
+
+
+header img{
+    display: block;
+}
+a{
+   font-family:"Monstserrat", sans-serif;
+   color: white;
+   text-decoration: none;
+
+}
+
